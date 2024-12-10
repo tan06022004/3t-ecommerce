@@ -8,7 +8,7 @@ const routes = require('./src/routes');
 const cookieParser = require('cookie-parser')
 
 const corsOption = {
-    origin: ["https://3t-ecommerce-5dkh.vercel.app"],
+    origin: ["http://localhost/3000"],
     credentials: true,
     methods: ["GET", "POST", "PUT", "DELETE"],    // fix bug lỗi cors ERR_NETWORK
 }
