@@ -59,7 +59,7 @@ const ProducTypeComponent = () => {
                     <div className="row">
                         {productType?.data?.map((product) => (
                             <div key={product.id} className="col-md-3 mb-2">
-                                <CardCommponent productTypeData={product} />|
+                                <CardCommponent productTypeData={product} />
                             </div>
                         ))}
                     </div>

@@ -85,7 +85,7 @@ const CardCommponent = (props) => {
                             <Card.Title>{productTypeData.name}</Card.Title>
                             <Card.Text style={{ marginTop: 'auto' }}>Giá: {convertPrice(productTypeData.price)}</Card.Text>
                             <p className="card-rating" style={{ marginTop: 'auto' }}>
-                                {productTypeData.rating} ⭐ | Đã bán 30% +
+                                {productTypeData.rating} ⭐ | Đã bán 30+
                             </p>
                             <Card.Text style={{ marginTop: 'auto' }}>Mô tả: {productTypeData.description}</Card.Text>
                         </Card.Body>
