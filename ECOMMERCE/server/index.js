@@ -8,7 +8,7 @@ const routes = require('./src/routes');
 const cookieParser = require('cookie-parser')
 
 const corsOption = {
-    origin: ["http://localhost/3000"],
+    origin: [process.env.PORT_REACT],
     credentials: true,
     methods: ["GET", "POST", "PUT", "DELETE"],    // fix bug lỗi cors ERR_NETWORK
 }
