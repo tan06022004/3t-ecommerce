@@ -70,7 +70,9 @@ const LoginComponent = () => {
             }
         })
     }
-    const isdisable = !email || !password
+
+    const isdisable = !email || !password  
+
     return (
         <div>
             <Loading isLoading={isLoading} delay={500}>
@@ -116,9 +118,7 @@ const LoginComponent = () => {
                                                     </div>
                                                    
                                                     <div className="d-flex justify-content-center mx-4  mb-lg-4">
-
                                                         <button type="button" className="btn btn-primary btn-lg" disabled={isdisable} onClick={handleLogin}>Submit</button>
-
                                                     </div>
 
                                                 </form>
